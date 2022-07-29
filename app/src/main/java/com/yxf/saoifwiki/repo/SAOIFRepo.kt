@@ -18,7 +18,8 @@ import retrofit2.Response
 class SAOIFRepo {
     val retrofit = RetrofitService.create(QueryService::class.java)
 
-    suspend fun getBeanList() = retrofit.getBeanList("")
+    suspend fun getBeanList(url : String) = retrofit.getBeanList(url)
+
 //    fun getBeanList() : LiveData<List<ImageInfoBean>>{
 //        val liveData = MutableLiveData<List<ImageInfoBean>>()
 //        retrofit.getBeanList("").enqueue(object : Callback<List<ImageInfoBean>>{

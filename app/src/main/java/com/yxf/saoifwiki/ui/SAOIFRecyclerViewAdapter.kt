@@ -16,7 +16,7 @@ import com.yxf.vehicleinspection.base.BaseRvViewHolder
  *   author:yxf
  *   time:2022/7/29
  */
-class SAOIFRecyclerViewAdapter : BaseRvAdapter<ImageInfoBean, SaoifRecyclerViewItemBinding>() {
+class SAOIFRecyclerViewAdapter() : BaseRvAdapter<ImageInfoBean, SaoifRecyclerViewItemBinding>() {
 
     val imageWidthPixel = 1024
     val imageHeightPixel = 768

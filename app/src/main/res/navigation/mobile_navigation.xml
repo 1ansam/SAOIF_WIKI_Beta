@@ -12,14 +12,373 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.yxf.saoifwiki.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:id="@+id/nav_ability_rush"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_ability_rush"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_ability_4"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_ability_4"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_ability_3"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_ability_3"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_ability_2"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_ability_2"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_ability_1"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_ability_1"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.yxf.saoifwiki.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_sword_mod"
+        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:label="@string/menu_sword_mod"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_sword_rush"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_sword_rush"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_sword_connect"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_sword_connect"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_sword_burst"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_sword_burst"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_sword_4"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_sword_4"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_sword_3"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_sword_3"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_sword_2"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_sword_2"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_sword_1"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_sword_1"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_rapier_mod"
+        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:label="@string/menu_rapier_mod"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_rapier_rush"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_rapier_rush"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_rapier_connect"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_rapier_connect"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_rapier_burst"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_rapier_burst"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_rapier_4"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_rapier_4"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_rapier_3"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_rapier_3"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_rapier_2"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_rapier_2"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_rapier_1"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_rapier_1"
+        tools:layout="@layout/fragment_gallery" />
+
+
+    <fragment
+        android:id="@+id/nav_club_mod"
+        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:label="@string/menu_club_mod"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_club_rush"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_club_rush"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_club_connect"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_club_connect"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_club_burst"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_club_burst"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_club_4"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_club_4"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_club_3"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_club_3"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_club_2"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_club_2"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_club_1"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_club_1"
+        tools:layout="@layout/fragment_gallery" />
+
+
+    <fragment
+        android:id="@+id/nav_dagger_mod"
+        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:label="@string/menu_dagger_mod"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_dagger_rush"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_dagger_rush"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_dagger_connect"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_dagger_connect"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_dagger_burst"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_dagger_burst"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_dagger_4"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_dagger_4"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_dagger_3"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_dagger_3"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_dagger_2"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_dagger_2"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_dagger_1"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_dagger_1"
+        tools:layout="@layout/fragment_gallery" />
+
+
+
+    <fragment
+        android:id="@+id/nav_shield_mod"
+        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:label="@string/menu_shield_mod"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_shield_rush"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_shield_rush"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_shield_connect"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_shield_connect"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_shield_burst"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_shield_burst"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_shield_4"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_shield_4"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_shield_3"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_shield_3"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_shield_2"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_shield_2"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_shield_1"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_shield_1"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_axe_mod"
+        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:label="@string/menu_axe_mod"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_axe_rush"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_axe_rush"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_axe_connect"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_axe_connect"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_axe_burst"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_axe_burst"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_axe_4"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_axe_4"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_axe_3"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_axe_3"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_axe_2"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_axe_2"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_axe_1"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_axe_1"
+        tools:layout="@layout/fragment_gallery" />
+
+
+    <fragment
+        android:id="@+id/nav_bow_mod"
+        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:label="@string/menu_bow_mod"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_bow_rush"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_bow_rush"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_bow_connect"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_bow_connect"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_bow_burst"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_bow_burst"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_bow_4"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_bow_4"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_bow_3"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_bow_3"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_bow_2"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_bow_2"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_bow_1"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_bow_1"
+        tools:layout="@layout/fragment_gallery" />
+
+
+    <fragment
+        android:id="@+id/nav_spear_mod"
+        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:label="@string/menu_spear_mod"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_spear_rush"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_spear_rush"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_spear_connect"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_spear_connect"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_spear_burst"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_spear_burst"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_spear_4"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_spear_4"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_spear_3"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_spear_3"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_spear_2"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_spear_2"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_spear_1"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
+        android:label="@string/menu_spear_1"
+        tools:layout="@layout/fragment_gallery" />
+
+
+
 </navigation>

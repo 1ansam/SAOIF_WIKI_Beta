@@ -1,9 +1,10 @@
 package com.yxf.saoifwiki
 
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
-import android.view.MenuItem
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.ui.AppBarConfiguration
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -29,8 +31,15 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBarMain.toolbar)
 
         binding.appBarMain.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            val intent = Intent(Intent.ACTION_SENDTO)
+            intent.data = Uri.parse("mailto:1anxuf@gmail.com")
+            intent.putExtra(Intent.EXTRA_SUBJECT,"Sword Art Online Integral Factor Wiki report")
+            intent.putExtra(Intent.EXTRA_TEXT,"")
+            if (intent.resolveActivity(packageManager)!= null)
+            startActivity(intent)
+            else{
+                Snackbar.make(view,"没有找到邮箱应用",Snackbar.LENGTH_LONG).show()
+            }
         }
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
@@ -38,21 +47,15 @@ class MainActivity : AppCompatActivity() {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(setOf(
-            R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow), drawerLayout)
+            R.id.nav_home), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-        navController.addOnDestinationChangedListener(object : NavController.OnDestinationChangedListener{
-            override fun onDestinationChanged(
-                controller: NavController,
-                destination: NavDestination,
-                arguments: Bundle?
-            ) {
-                val builder = NavArgumentBuilder()
-                builder.defaultValue = destination.label
-                val argument = builder.build()
-                controller.graph.addArgument("key",argument)
-            }
-        })
+        navController.addOnDestinationChangedListener { controller, destination, arguments ->
+            val builder = NavArgumentBuilder()
+            builder.defaultValue = destination.label
+            val argument = builder.build()
+            controller.graph.addArgument("key", argument)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
