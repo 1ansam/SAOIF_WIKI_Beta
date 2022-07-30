@@ -7,8 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">公告</string>
     <string name="menu_ability_rush">能力(觉醒)</string>
     <string name="menu_ability_4">能力(4*)</string>
     <string name="menu_ability_3">能力(3*)</string>
