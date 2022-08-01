@@ -8,16 +8,15 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
-import com.bumptech.glide.ListPreloader.PreloadModelProvider
-import com.bumptech.glide.ListPreloader.PreloadSizeProvider
-import com.bumptech.glide.util.FixedPreloadSizeProvider
 import com.yxf.saoifwiki.MyApp
 import com.yxf.saoifwiki.R
+import com.yxf.saoifwiki.bean.ImageInfoBean
 import com.yxf.saoifwiki.databinding.FragmentGalleryBinding
 import com.yxf.saoifwiki.ui.SAOIFRecyclerViewAdapter
+import com.yxf.vehicleinspection.base.BaseRvAdapter
+import com.yxf.vehicleinspection.base.BaseRvMapAdapter
 
 
 class SAOIFFragment : Fragment() {
@@ -131,13 +130,14 @@ class SAOIFFragment : Fragment() {
         }
         Log.e(TAG, "key: $key", )
         binding.rvSaoif.layoutManager = LinearLayoutManager(requireContext())
-        val adapter = SAOIFRecyclerViewAdapter()
+        val adapter = SAOIFRecyclerViewAdapter(Glide.with(this))
         binding.rvSaoif.adapter = adapter
 
 
         saoifViewModel.liveData.observe(viewLifecycleOwner){
             Log.e("TAG", "onCreateView: $it")
-            adapter.data = it
+
+            adapter.data = it as MutableList<ImageInfoBean>
         }
 
         return root
