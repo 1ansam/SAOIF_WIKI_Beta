@@ -5,3 +5,4 @@ package com.yxf.saoifwiki
  *   time:2022/7/29
  */
 const val BASEURL = "http://124.70.32.155:7777"
+//const val BASEURL = "http://192.168.2.156:7777"

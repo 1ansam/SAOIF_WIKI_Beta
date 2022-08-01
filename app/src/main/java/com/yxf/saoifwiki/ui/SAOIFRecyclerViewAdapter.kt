@@ -33,7 +33,7 @@ class SAOIFRecyclerViewAdapter() : BaseRvAdapter<ImageInfoBean, SaoifRecyclerVie
         binding: SaoifRecyclerViewItemBinding,
         bean: ImageInfoBean,
     ) {
-        val url = "$BASEURL${bean.url.replaceFirst(".","")}"
+        val url = "$BASEURL${bean.url.replaceFirst(".","").replace("\\","/")}"
         Log.e("TAG", "onBindViewHolder: $url" )
         Glide.with(holder.itemView.context)
             .load(url)

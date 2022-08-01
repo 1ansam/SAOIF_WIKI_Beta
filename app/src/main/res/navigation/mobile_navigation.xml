@@ -39,7 +39,7 @@
 
     <fragment
         android:id="@+id/nav_sword_mod"
-        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
         android:label="@string/menu_sword_mod"
         tools:layout="@layout/fragment_home" />
 
@@ -81,9 +81,9 @@
 
     <fragment
         android:id="@+id/nav_rapier_mod"
-        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
         android:label="@string/menu_rapier_mod"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_rapier_rush"
@@ -124,9 +124,9 @@
 
     <fragment
         android:id="@+id/nav_club_mod"
-        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
         android:label="@string/menu_club_mod"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_club_rush"
@@ -167,9 +167,9 @@
 
     <fragment
         android:id="@+id/nav_dagger_mod"
-        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
         android:label="@string/menu_dagger_mod"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_dagger_rush"
@@ -211,9 +211,9 @@
 
     <fragment
         android:id="@+id/nav_shield_mod"
-        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
         android:label="@string/menu_shield_mod"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_shield_rush"
@@ -253,9 +253,9 @@
 
     <fragment
         android:id="@+id/nav_axe_mod"
-        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
         android:label="@string/menu_axe_mod"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_axe_rush"
@@ -296,9 +296,9 @@
 
     <fragment
         android:id="@+id/nav_bow_mod"
-        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
         android:label="@string/menu_bow_mod"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_bow_rush"
@@ -339,9 +339,9 @@
 
     <fragment
         android:id="@+id/nav_spear_mod"
-        android:name="com.yxf.saoifwiki.ui.home.HomeFragment"
+        android:name="com.yxf.saoifwiki.ui.gallery.SAOIFFragment"
         android:label="@string/menu_spear_mod"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_spear_rush"

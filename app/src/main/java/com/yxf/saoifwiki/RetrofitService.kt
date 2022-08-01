@@ -17,7 +17,7 @@ object RetrofitService {
         return Retrofit.Builder()
             .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl("http://124.70.32.155:7777/")
+            .baseUrl(BASEURL)
             .build()
     }
 
@@ -26,9 +26,6 @@ object RetrofitService {
         return getRetrofit().create(clazz)
     }
     private val okHttpClient = OkHttpClient.Builder()
-        .connectTimeout(5,TimeUnit.SECONDS)
-        .readTimeout(10,TimeUnit.SECONDS)
-        .writeTimeout(10,TimeUnit.SECONDS)
         .build()
 
 

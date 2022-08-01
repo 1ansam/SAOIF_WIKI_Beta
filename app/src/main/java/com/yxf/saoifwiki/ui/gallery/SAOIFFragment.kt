@@ -47,17 +47,17 @@ class SAOIFFragment : Fragment() {
             resources.getString(R.string.menu_ability_4) -> saoifViewModel.url = "ability/four_stars"
             resources.getString(R.string.menu_ability_3) -> saoifViewModel.url = "ability/three_stars"
             resources.getString(R.string.menu_ability_2) -> saoifViewModel.url = "ability/two_stars"
-            resources.getString(R.string.menu_ability_1) -> saoifViewModel.url = "ability/one_stars"
+            resources.getString(R.string.menu_ability_1) -> saoifViewModel.url = "ability/one_star"
 
             //sword
             resources.getString(R.string.menu_sword_mod)-> saoifViewModel.url =      "sword/mod"
             resources.getString(R.string.menu_sword_rush) -> saoifViewModel.url =    "sword/rush"
             resources.getString(R.string.menu_sword_connect) -> saoifViewModel.url = "sword/connect"
             resources.getString(R.string.menu_sword_burst) -> saoifViewModel.url =   "sword/burst"
-            resources.getString(R.string.menu_ability_4) -> saoifViewModel.url =     "sword/four_stars"
-            resources.getString(R.string.menu_ability_3) -> saoifViewModel.url =     "sword/three_stars"
-            resources.getString(R.string.menu_ability_2) -> saoifViewModel.url =     "sword/two_stars"
-            resources.getString(R.string.menu_ability_1) -> saoifViewModel.url =     "sword/one_stars"
+            resources.getString(R.string.menu_sword_4) -> saoifViewModel.url =     "sword/four_stars"
+            resources.getString(R.string.menu_sword_3) -> saoifViewModel.url =     "sword/three_stars"
+            resources.getString(R.string.menu_sword_2) -> saoifViewModel.url =     "sword/two_stars"
+            resources.getString(R.string.menu_sword_1) -> saoifViewModel.url =     "sword/one_star"
 
             //rapier
             resources.getString(R.string.menu_rapier_mod)-> saoifViewModel.url =      "rapier/mod"
@@ -67,7 +67,7 @@ class SAOIFFragment : Fragment() {
             resources.getString(R.string.menu_rapier_4) -> saoifViewModel.url =       "rapier/four_stars"
             resources.getString(R.string.menu_rapier_3) -> saoifViewModel.url =       "rapier/three_stars"
             resources.getString(R.string.menu_rapier_2) -> saoifViewModel.url =       "rapier/two_stars"
-            resources.getString(R.string.menu_rapier_1) -> saoifViewModel.url =       "rapier/one_stars"
+            resources.getString(R.string.menu_rapier_1) -> saoifViewModel.url =       "rapier/one_star"
 
             //club
             resources.getString(R.string.menu_club_mod)-> saoifViewModel.url =      "club/mod"
@@ -77,7 +77,7 @@ class SAOIFFragment : Fragment() {
             resources.getString(R.string.menu_club_4) -> saoifViewModel.url =       "club/four_stars"
             resources.getString(R.string.menu_club_3) -> saoifViewModel.url =       "club/three_stars"
             resources.getString(R.string.menu_club_2) -> saoifViewModel.url =       "club/two_stars"
-            resources.getString(R.string.menu_club_1) -> saoifViewModel.url =       "club/one_stars"
+            resources.getString(R.string.menu_club_1) -> saoifViewModel.url =       "club/one_star"
 
             //dagger
             resources.getString(R.string.menu_dagger_mod)-> saoifViewModel.url =      "dagger/mod"
@@ -87,7 +87,7 @@ class SAOIFFragment : Fragment() {
             resources.getString(R.string.menu_dagger_4) -> saoifViewModel.url =       "dagger/four_stars"
             resources.getString(R.string.menu_dagger_3) -> saoifViewModel.url =       "dagger/three_stars"
             resources.getString(R.string.menu_dagger_2) -> saoifViewModel.url =       "dagger/two_stars"
-            resources.getString(R.string.menu_dagger_1) -> saoifViewModel.url =       "dagger/one_stars"
+            resources.getString(R.string.menu_dagger_1) -> saoifViewModel.url =       "dagger/one_star"
 
             //shield
             resources.getString(R.string.menu_shield_mod)-> saoifViewModel.url =      "shield/mod"
@@ -97,7 +97,7 @@ class SAOIFFragment : Fragment() {
             resources.getString(R.string.menu_shield_4) -> saoifViewModel.url =       "shield/four_stars"
             resources.getString(R.string.menu_shield_3) -> saoifViewModel.url =       "shield/three_stars"
             resources.getString(R.string.menu_shield_2) -> saoifViewModel.url =       "shield/two_stars"
-            resources.getString(R.string.menu_shield_1) -> saoifViewModel.url =       "shield/one_stars"
+            resources.getString(R.string.menu_shield_1) -> saoifViewModel.url =       "shield/one_star"
 
             //axe
             resources.getString(R.string.menu_axe_mod)-> saoifViewModel.url =      "axe/mod"
@@ -107,7 +107,7 @@ class SAOIFFragment : Fragment() {
             resources.getString(R.string.menu_axe_4) -> saoifViewModel.url =       "axe/four_stars"
             resources.getString(R.string.menu_axe_3) -> saoifViewModel.url =       "axe/three_stars"
             resources.getString(R.string.menu_axe_2) -> saoifViewModel.url =       "axe/two_stars"
-            resources.getString(R.string.menu_axe_1) -> saoifViewModel.url =       "axe/one_stars"
+            resources.getString(R.string.menu_axe_1) -> saoifViewModel.url =       "axe/one_star"
 
             //bow
             resources.getString(R.string.menu_bow_mod)-> saoifViewModel.url =      "bow/mod"
@@ -117,7 +117,7 @@ class SAOIFFragment : Fragment() {
             resources.getString(R.string.menu_bow_4) -> saoifViewModel.url =       "bow/four_stars"
             resources.getString(R.string.menu_bow_3) -> saoifViewModel.url =       "bow/three_stars"
             resources.getString(R.string.menu_bow_2) -> saoifViewModel.url =       "bow/two_stars"
-            resources.getString(R.string.menu_bow_1) -> saoifViewModel.url =       "bow/one_stars"
+            resources.getString(R.string.menu_bow_1) -> saoifViewModel.url =       "bow/one_star"
 
             //spear
             resources.getString(R.string.menu_spear_mod)-> saoifViewModel.url =      "spear/mod"
@@ -127,11 +127,9 @@ class SAOIFFragment : Fragment() {
             resources.getString(R.string.menu_spear_4) -> saoifViewModel.url =       "spear/four_stars"
             resources.getString(R.string.menu_spear_3) -> saoifViewModel.url =       "spear/three_stars"
             resources.getString(R.string.menu_spear_2) -> saoifViewModel.url =       "spear/two_stars"
-            resources.getString(R.string.menu_spear_1) -> saoifViewModel.url =       "spear/one_stars"
+            resources.getString(R.string.menu_spear_1) -> saoifViewModel.url =       "spear/one_star"
         }
-        if (key == resources.getString(R.string.menu_ability_rush)){
-            Log.e(TAG, "key: $key", )
-        }
+        Log.e(TAG, "key: $key", )
         binding.rvSaoif.layoutManager = LinearLayoutManager(requireContext())
         val adapter = SAOIFRecyclerViewAdapter()
         binding.rvSaoif.adapter = adapter
